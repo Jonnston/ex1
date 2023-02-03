@@ -1,0 +1,42 @@
+body {
+    background-color: beige;
+}
+
+.linkBarPane {
+    display: flex;
+}
+ 
+.logo {
+    background-color: rgb(53, 139, 158);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 25%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: left;
+}
+
+.subpages {
+    background-color:rgb(69, 192, 104);
+    color: rgb(53, 139, 158);
+    font-size: 15px;
+    width: 100%;
+    line-height: 20px;
+}
+
+@media (max-width: 800px) {
+    .linkBarPane {
+        display: contents;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .subpages {
+        line-height: 10px;
+    }
+
+}
+

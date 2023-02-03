@@ -1,0 +1,6 @@
+One main html page with 3 subpages.
+Functioning CSS
+A Mobile friendly design
+A Front-end Java Script Function
+A Back-end Java Script Function (Server/Node)
+ 
